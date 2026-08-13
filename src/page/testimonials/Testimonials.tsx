@@ -81,7 +81,7 @@ const Testimonials: React.FC = () => {
                                 <div className="testimonial-two__single">
                                     <div className="testimonial-two__single-inner">
                                         <div className="testimonial-two__shape-1">
-                                            <img src={TestimonialTwoShape1} alt="shape" />
+                                            <img src={TestimonialTwoShape1} alt="" />
                                         </div>
                                         <div className="testimonial-two__quote">
                                             <i className="fas fa-quote-left"></i>

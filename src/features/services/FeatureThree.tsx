@@ -15,7 +15,7 @@ const FeatureThree: React.FC = () => {
                             <div className="feature-two__single">
                                 <div className="feature-two__single-inner">
                                     <div className="feature-two__shape-1">
-                                        <img src={FeatureTwoShape1} alt="Shape" />
+                                        <img src={FeatureTwoShape1} alt="" />
                                     </div>
                                     <div className="feature-two__icon-and-title">
                                         <div className="feature-two__icon">
@@ -40,7 +40,7 @@ const FeatureThree: React.FC = () => {
                             <div className="feature-two__single">
                                 <div className="feature-two__single-inner">
                                     <div className="feature-two__shape-1">
-                                        <img src={FeatureTwoShape1} alt="Shape" />
+                                        <img src={FeatureTwoShape1} alt="" />
                                     </div>
                                     <div className="feature-two__icon-and-title">
                                         <div className="feature-two__icon">
@@ -65,7 +65,7 @@ const FeatureThree: React.FC = () => {
                             <div className="feature-two__single">
                                 <div className="feature-two__single-inner">
                                     <div className="feature-two__shape-1">
-                                        <img src={FeatureTwoShape1} alt="Shape" />
+                                        <img src={FeatureTwoShape1} alt="" />
                                     </div>
                                     <div className="feature-two__icon-and-title">
                                         <div className="feature-two__icon">

@@ -20,7 +20,7 @@ const AboutThree: React.FC = () => {
                                         <img src="/service3.jpg" alt="Global Trade" />
                                     </div>
                                     <div className="about-three__shape-2 float-bob-y">
-                                        <img src="/service4.jpg" alt="Shape" />
+                                        <img src="/service4.jpg" alt="" />
                                     </div>
                                     <div className="about-three__experience-box">
                                         <div className="about-three__count-box">

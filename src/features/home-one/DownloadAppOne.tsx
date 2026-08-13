@@ -2,7 +2,6 @@
 import { Link } from 'react-router';
 import DownloadAppImg1 from '../../assets/images/icon/download-app-img1.png';
 import DownloadAppImg2 from '../../assets/images/icon/download-app-img2.png';
-import DownloadAppImg12 from '../../assets/images/resources/download-app-img-1.png';
 import DownloadAppTrackImg1 from '../../assets/images/resources/download-app-track-img-1.png';
 import TextAnimation from '../../components/elements/TextAnimation';
 import FadeInAdvanced from '../../components/elements/FadeInAdvanced';
@@ -29,14 +28,6 @@ export default function DownloadAppOne() {
                         </div>
                         <div className="col-xl-5 col-lg-5">
                             <div className="download-app-one__right">
-                                <div className="download-app-one__img">
-                                    <FadeInAdvanced
-                                        className='download-app-one__img1'
-                                    // variant='fadeInLeft'
-                                    >
-                                        <img src={DownloadAppImg12} alt='Image' />
-                                    </FadeInAdvanced>
-                                </div>
                                 <div className="download-app-one-car__img float-bob-x">
                                     <img src="/download.jpg" />
                                 </div>

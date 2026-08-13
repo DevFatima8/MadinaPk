@@ -31,7 +31,7 @@ const AboutTwo: React.FC = () => {
                                         <img src={AboutTwoImg2} alt="Products" />
                                     </div>
                                     <div className="about-two__counter">
-                                        <div className="shape1"><img src={AboutTwoShape1} alt="Shape" /></div>
+                                        <div className="shape1"><img src={AboutTwoShape1} alt="" /></div>
                                         <div className="count-text-box count-box">
                                             <h2><CounterUp ending={25} duration={1500} /></h2>
                                             <span className="plus">+</span>
@@ -39,13 +39,13 @@ const AboutTwo: React.FC = () => {
                                         <p>Years Of <br /> Experience</p>
                                     </div>
                                     <div className="about-two__shape-2 float-bob-x">
-                                        <img src={AboutTwoShape2} alt="Shape" />
+                                        <img src={AboutTwoShape2} alt="" />
                                     </div>
                                     <div className="about-two__shape-3">
-                                        <img src={AboutTwoShape3} alt="Shape" />
+                                        <img src={AboutTwoShape3} alt="" />
                                     </div>
                                     <div className="about-two__shape-4 float-bob-y">
-                                        <img src={AboutTwoShape4} alt="Shape" />
+                                        <img src={AboutTwoShape4} alt="" />
                                     </div>
                                 </div>
                             </FadeInAdvanced>

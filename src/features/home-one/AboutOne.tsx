@@ -5,8 +5,6 @@ import TextAnimation from '../../components/elements/TextAnimation';
 import SectionWrapper from '../../components/elements/SectionWrapper';
 import CounterUp from '../../components/elements/CounterUp';
 import AboutOneAuthorSign from '../../assets/images/resources/about-one-author-sign.png';
-import AboutOneShape1 from '../../assets/images/shapes/about-one-shape-1.png';
-import AboutOneShape2 from '../../assets/images/shapes/about-one-shape-2.png';
 import useTransportContext from '../../components/context/useTransportContext';
 
 const AboutOne: React.FC = () => {
@@ -86,12 +84,6 @@ const AboutOne: React.FC = () => {
                                                 <Link to="/about"><i className="icon-plane"></i></Link>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="about-one__shape-1">
-                                        <img src={AboutOneShape1} alt="Shape" />
-                                    </div>
-                                    <div className="about-one__shape-2">
-                                        <img src={AboutOneShape2} alt="Shape" />
                                     </div>
                                 </div>
                             </FadeInAdvanced>
