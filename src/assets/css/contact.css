@@ -1,0 +1,140 @@
+/*--------------------------------------------------------------
+# Contact Page - WhatsApp Buttons
+--------------------------------------------------------------*/
+.whatsapp-btn {
+    background: #25D366;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+    color: #fff;
+}
+
+.whatsapp-btn i {
+    font-size: 20px;
+}
+
+.contact-info__single .whatsapp-link {
+    color: #25D366;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.contact-info__single .whatsapp-link:hover {
+    color: #1da851;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.whatsapp-float a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #25D366;
+    color: #fff;
+    font-size: 30px;
+    box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-float a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+}
+
+/* Contact Info Icons */
+.contact-info__single .contact-info__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: var(--tanspot-white);
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.contact-info__single .contact-info__icon:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    border-radius: 50%;
+    background-color: var(--tanspot-black);
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: -1;
+}
+
+.contact-info__single:hover .contact-info__icon:before {
+    transform: scaleX(1);
+}
+
+.contact-info__single .contact-info__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 32px;
+    color: var(--tanspot-black);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.contact-info__single:hover .contact-info__icon span {
+    transform: scale(0.9);
+    color: var(--tanspot-white);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .contact-page__inner {
+        padding: 30px 15px 30px;
+    }
+
+    .contact-page__right {
+        margin-top: 30px;
+    }
+
+    .whatsapp-float {
+        bottom: 80px;
+        right: 15px;
+    }
+
+    .whatsapp-float a {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+}

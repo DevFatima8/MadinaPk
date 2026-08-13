@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------
+# Products Page
+--------------------------------------------------------------*/
+.products-page {
+    position: relative;
+    display: block;
+    padding: 120px 0 90px;
+    z-index: 1;
+}
+
+.products-page .category-filter button:hover {
+    background-color: #FD5523;
+    color: #fff;
+    border-color: #FD5523;
+}
+
+.products-page .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.12);
+}
+
+.products-page .product-card__image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(6, 47, 58, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+.products-page .product-card:hover .product-card__image::before {
+    opacity: 1;
+}
+
+.products-page .product-card__image .quick-view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 2;
+    transition: transform 0.5s ease;
+}
+
+.products-page .product-card:hover .product-card__image .quick-view {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Product Condition Badges */
+.product-badge-new {
+    background: #198754;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-badge-used {
+    background: #FD5523;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-badge-refurbished {
+    background: #0dcaf0;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Products Grid Responsive */
+@media (max-width: 767px) {
+    .products-page .category-filter ul {
+        justify-content: center;
+    }
+
+    .products-page .category-filter button {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .products-page .product-card__image img {
+        height: 200px;
+    }
+}
