@@ -10465,7 +10465,7 @@ Error Page
 }
 
 .page-header__bg {
-  background-image: url("/public/servicebanner.jpg");
+  background-image: url("/servicebanner.jpg");
   position: absolute;
   top: 0;
   left: 0;

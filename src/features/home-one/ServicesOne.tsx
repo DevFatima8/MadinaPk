@@ -33,7 +33,7 @@ const servicesData: ServiceItem[] = [
         id: 2,
         title: "Auto Parts & Vehicles",
         link: "/products",
-        image: "public/Auto-Parts-&-Vehicles.jpg",
+        image: "/Auto-Parts-&-Vehicles.jpg",
         iconClass: "icon-shipment",
         count: "02",
         text: "Used auto parts, new auto parts, used vehicles, vehicle and parts sourcing, export and import support."

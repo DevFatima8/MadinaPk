@@ -4,7 +4,7 @@ import productImg2 from "../../assets/images/shop/cart-page-img-2.jpg"
 import productImg3 from "../../assets/images/shop/cart-page-img-3.jpg"
 import productImg4 from "../../assets/images/shop/cart-page-img-4.jpg"
 import { Link } from 'react-router';
-import CartProduct from '../components/elements/CartProduct';
+import CartProduct from '../../components/elements/CartProduct';
 import CustomSelect from '../../components/elements/CustomSelect';
 
 interface CartPro {
