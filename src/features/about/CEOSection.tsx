@@ -113,7 +113,7 @@ const CEOSection: React.FC = () => {
                                         color: '#062f3a',
                                         marginBottom: '2px'
                                     }}>
-                                        Muhammad Rashid
+                                        Ayaz Khan Momand
                                     </h4>
                                     <p style={{
                                         fontSize: '16px',

@@ -24,7 +24,7 @@ const FooterOne: React.FC = () => {
                                 <div className="footer-widget__column footer-widget__about">
                                     <div className="footer-widget__logo">
                                         <Link to="/">
-                                            <img src="/logo.png" alt="Madina International" width="150" height="100" />
+                                            <img src="/logo-footer.png" alt="Madina International" width="auto" height="100" />
                                         </Link>
                                     </div>
                                     <p className="footer-widget__about-text">

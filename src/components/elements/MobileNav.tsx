@@ -26,7 +26,7 @@ const MobileNav: React.FC = () => {
 
                 <div className="logo-box">
                     <Link to="/" aria-label="logo image" onClick={() => setIsMobileManu(false)}>
-                        <img src="/logo.png" alt="Madina International" width="130" style={{ maxHeight: '60px', objectFit: 'contain' }} />
+                        <img src="/logo.png" alt="Madina International" width="130" style={{ maxHeight: '80px', objectFit: 'contain' }} />
                     </Link>
                 </div>
 
