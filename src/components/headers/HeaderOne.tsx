@@ -117,7 +117,7 @@ const HeaderOne: React.FC = () => {
                                         aria-label="Search"
                                         onClick={(e) => e.preventDefault()}
                                     >
-                                        <i className="fas fa-search" style={{ fontSize: '20px', color: 'var(--tanspot-black)' }}></i>
+                                        <i className="" style={{ fontSize: '20px', color: 'var(--tanspot-black)' }}></i>
                                     </a>
                                 </div>
                             </div>
