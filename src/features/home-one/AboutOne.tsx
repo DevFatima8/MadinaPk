@@ -113,7 +113,7 @@ const AboutOne: React.FC = () => {
                             <p className="about-one__text">
                                 Madina International Traders Co., Ltd. is an international import-export and trading company
                                 serving business customers in Pakistan, Thailand and international markets. We source, supply
-                                and trade used and new machinery, auto parts, textiles, electronics, food products, agricultural
+                                and trade used and new machinery, auto parts, textiles, electronics, stones & gems, food products, agricultural
                                 goods, agricultural machinery, used vehicles and other commercially demanded products.
                             </p>
                             <p className="about-one__text" style={{ marginTop: '15px' }}>

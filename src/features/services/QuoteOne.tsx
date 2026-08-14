@@ -123,6 +123,7 @@ const ImportQuoteForm: React.FC = () => {
                                                     { id: 4, value: "Textiles", label: "Textiles" },
                                                     { id: 5, value: "Electronics", label: "Electronics" },
                                                     { id: 6, value: "Food & Agriculture", label: "Food & Agriculture" },
+                                                    { id: 7, value: "Stones & Gems", label: "Stones & Gems" },
                                                 ]}
                                             />
                                         </div>

@@ -88,4 +88,13 @@ export const servicesData: ServiceItem[] = [
         count: "08",
         text: "A logistic service provider company plays a pivotal role in the global logistic service."
     },
+    {
+        id: 9,
+        title: "Stones & Gems Sourcing",
+        link: "/products",
+        image: "/Stones-and-Gems.jpg",
+        iconClass: "icon-global-services",
+        count: "09",
+        text: "Expert sourcing, procurement, and export of natural precious & semi-precious gemstones and rough mineral stones."
+    },
 ];

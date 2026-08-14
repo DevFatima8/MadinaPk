@@ -34,6 +34,7 @@ const products: ProductShowcaseItem[] = [
     { id: 6, title: "Used Vehicles", subTitle: "Auto Parts & Vehicles", image: Product6, link: "/quote" },
     { id: 7, title: "Agricultural Products", subTitle: "Food & Agriculture", image: Product7, link: "/quote" },
     { id: 8, title: "Industrial Machinery", subTitle: "Machinery", image: Product8, link: "/quote" },
+    { id: 9, title: "Stones & Gems", subTitle: "Stones & Gems", image: "/Stones-and-Gems.jpg", link: "/quote" },
 ];
 
 const ProjectTwo: React.FC = () => {

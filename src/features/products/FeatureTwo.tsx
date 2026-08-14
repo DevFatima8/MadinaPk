@@ -8,7 +8,7 @@ const FeatureTwo: React.FC = () => {
             <div className="container">
                 <div className="row">
                     {/* Machinery */}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
+                    <div className="col-xl-4 col-lg-6 col-md-6">
                         <FadeInAdvanced variant={'fadeInLeft'} delay={100}>
                             <div className="feature-one__single">
                                 <div className="feature-one__icon">
@@ -27,8 +27,8 @@ const FeatureTwo: React.FC = () => {
                     </div>
 
                     {/* Auto Parts & Vehicles */}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <FadeInAdvanced variant={'fadeInLeft'} delay={300}>
+                    <div className="col-xl-4 col-lg-6 col-md-6">
+                        <FadeInAdvanced variant={'fadeInLeft'} delay={200}>
                             <div className="feature-one__single">
                                 <div className="feature-one__icon">
                                     <span className="icon-shipment"></span>
@@ -46,8 +46,8 @@ const FeatureTwo: React.FC = () => {
                     </div>
 
                     {/* Textiles */}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <FadeInAdvanced variant={'fadeInRight'} delay={500}>
+                    <div className="col-xl-4 col-lg-6 col-md-6">
+                        <FadeInAdvanced variant={'fadeInRight'} delay={300}>
                             <div className="feature-one__single">
                                 <div className="feature-one__icon">
                                     <span className="icon-delivery-man"></span>
@@ -65,8 +65,8 @@ const FeatureTwo: React.FC = () => {
                     </div>
 
                     {/* Electronics */}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <FadeInAdvanced variant={'fadeInRight'} delay={700}>
+                    <div className="col-xl-4 col-lg-6 col-md-6">
+                        <FadeInAdvanced variant={'fadeInRight'} delay={400}>
                             <div className="feature-one__single">
                                 <div className="feature-one__icon">
                                     <span className="icon-global-services"></span>
@@ -77,6 +77,44 @@ const FeatureTwo: React.FC = () => {
                                     </h3>
                                     <p className="feature-one__text">
                                         Commercial electronics, electrical components, new and used electronic products.
+                                    </p>
+                                </div>
+                            </div>
+                        </FadeInAdvanced>
+                    </div>
+
+                    {/* Food & Agriculture */}
+                    <div className="col-xl-4 col-lg-6 col-md-6">
+                        <FadeInAdvanced variant={'fadeInLeft'} delay={500}>
+                            <div className="feature-one__single">
+                                <div className="feature-one__icon">
+                                    <span className="icon-shipment"></span>
+                                </div>
+                                <div className="feature-one__content">
+                                    <h3 className="feature-one__title">
+                                        <Link to="/products#agriculture">Food & Agriculture</Link>
+                                    </h3>
+                                    <p className="feature-one__text">
+                                        Food products, agricultural commodities, agricultural raw materials, machinery and equipment.
+                                    </p>
+                                </div>
+                            </div>
+                        </FadeInAdvanced>
+                    </div>
+
+                    {/* Stones & Gems */}
+                    <div className="col-xl-4 col-lg-6 col-md-6">
+                        <FadeInAdvanced variant={'fadeInRight'} delay={600}>
+                            <div className="feature-one__single">
+                                <div className="feature-one__icon">
+                                    <span className="icon-global-services"></span>
+                                </div>
+                                <div className="feature-one__content">
+                                    <h3 className="feature-one__title">
+                                        <Link to="/products#gems">Stones & Gems</Link>
+                                    </h3>
+                                    <p className="feature-one__text">
+                                        Natural gemstones, cut & polished gems, rough minerals, quartz and decorative stones.
                                     </p>
                                 </div>
                             </div>

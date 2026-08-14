@@ -1276,8 +1276,7 @@ xs sidebar
   right: 0;
   bottom: 0;
   background-color: var(--tanspot-base);
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
   z-index: -1;
 }
 
@@ -1450,6 +1449,8 @@ xs sidebar
 .main-menu {
   position: relative;
   display: block;
+  border-bottom: 5px solid var(--tanspot-black);
+  background-color: var(--tanspot-white);
 }
 
 .main-menu__wrapper {
@@ -1468,7 +1469,9 @@ xs sidebar
 
 .main-menu__left {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  z-index: 5;
 }
 
 .main-menu__left::before {
@@ -1476,11 +1479,11 @@ xs sidebar
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: -14px;
+  left: -500px;
+  right: -55px;
   background-color: var(--tanspot-base);
-  clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
-  opacity: .60;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  opacity: .50;
   z-index: -1;
 }
 
@@ -1489,30 +1492,24 @@ xs sidebar
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: -500px;
+  right: -35px;
   background-color: var(--tanspot-base);
-  clip-path: polygon(0 0, 76% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
   z-index: -1;
 }
 
 .main-menu__logo {
   position: relative;
-  display: block;
-  padding: 25px 0;
-  padding-right: 60px;
-  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 0px 0;
+  padding-right: 20px;
+  z-index: 2;
 }
 
 .main-menu__logo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -1000000px;
-  right: 100%;
-  background-color: var(--tanspot-base);
-  z-index: -1;
+  display: none;
 }
 
 .main-menu__main-menu-box {
@@ -1752,8 +1749,8 @@ xs sidebar
 
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   position: relative;
 }
 
@@ -2723,53 +2720,150 @@ xs sidebar
   width: 40px;
   border: 1px solid rgba(var(--tanspot-white-rgb), .40);
   border-radius: 5px;
-  font-size: 15px;
+  height: 14px;
+  background-color: rgba(var(--tanspot-white-rgb), 0.20);
+  transform: translateY(-50%);
+}
+
+.main-menu__contact-list li:first-child:before {
+  display: none;
+}
+
+.main-menu__contact-list li .icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__contact-list li .icon i {
+  color: var(--tanspot-base);
+  font-size: 14px;
+}
+
+.main-menu__contact-list li .text {
+  position: relative;
+  margin-left: 8px;
+}
+
+.main-menu__contact-list li .text p {
+  font-size: 14px;
   color: var(--tanspot-white);
-  background-color: transparent;
-  overflow: hidden;
-  -webkit-transition: all 0.4s linear;
-  -o-transition: all 0.4s linear;
-  transition: all 0.4s linear;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.main-menu__contact-list li .text p a {
+  color: var(--tanspot-white);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.main-menu__contact-list li .text p a:hover {
+  color: var(--tanspot-base);
+}
+
+.main-menu__top-welcome-text {
+  font-size: 14px;
+  color: var(--tanspot-white);
+  font-weight: 400;
+  line-height: 14px;
+  display: none;
+}
+
+.main-menu__top-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__top-time {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.main-menu__top-time-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__top-time-icon span {
+  font-size: 14px;
+  color: var(--tanspot-white);
+}
+
+.main-menu__top-text {
+  font-size: 14px;
+  color: var(--tanspot-white);
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 8px;
+}
+
+.main-menu__social {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__social a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  color: var(--tanspot-white);
+  font-size: 14px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
   z-index: 1;
 }
 
-.main-menu-two__social a:hover {
-  color: var(--tanspot-base);
-  border: 1px solid var(--tanspot-white);
+.main-menu__social a:hover {
+  color: var(--tanspot-white);
 }
 
-.main-menu-two__social a::before {
+.main-menu__social a::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
-  background: var(--tanspot-white);
-  transform: scale(0.5);
-  border-radius: 5px;
+  bottom: 0;
+  background-color: var(--tanspot-black);
+  border-radius: 50%;
+  transform: scale(0);
   opacity: 0;
-  -webkit-transition: all 0.4s linear;
-  -o-transition: all 0.4s linear;
-  transition: all 0.4s linear;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
   z-index: -1;
 }
 
-.main-menu-two__social a:hover::before {
+.main-menu__social a:hover::before {
   transform: scale(1.0);
   opacity: 1;
 }
 
-.main-menu-two__social a+a {
+.main-menu__social a+a {
   margin-left: 5px;
 }
 
-.main-menu-two__wrapper {
+.main-menu {
+  position: relative;
+  display: block;
+  border-bottom: 5px solid var(--tanspot-black);
+  background-color: var(--tanspot-white);
+}
+
+.main-menu__wrapper {
   position: relative;
   display: block;
 }
 
-.main-menu-two__wrapper-inner {
+.main-menu__wrapper-inner {
   position: relative;
   display: flex;
   align-items: center;
@@ -2778,8 +2872,55 @@ xs sidebar
   padding: 0 55px;
 }
 
-.main-menu-two__left {
-  display: block;
+.main-menu__left {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100px;
+  right: -15px;
+  background-color: var(--tanspot-base);
+  clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
+  opacity: .60;
+  z-index: -1;
+}
+
+.main-menu__left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100px;
+  right: 0;
+  background-color: var(--tanspot-base);
+  clip-path: polygon(0 0, 78% 0, 100% 100%, 0% 100%);
+  z-index: -1;
+}
+
+.main-menu__logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  padding-right: 40px;
+  z-index: 1;
+}
+
+.main-menu__logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1000000px;
+  right: 100%;
+  background-color: var(--tanspot-base);
+  z-index: -1;
 }
 
 .main-menu-two__logo {

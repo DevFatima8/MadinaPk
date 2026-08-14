@@ -640,6 +640,11 @@
         font-size: 50px;
     }
 
+    .faq-one {
+        margin-top: 0;
+        padding: 80px 0 80px;
+    }
+
     .faq-one__left {
         margin-bottom: 60px;
     }
@@ -973,7 +978,10 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
     .section-title__title {
-        font-size: 30px;
+        font-size: clamp(22px, 6vw, 30px);
+        line-height: 1.35em;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .section-title__title br {
@@ -1210,7 +1218,8 @@
     }
 
     .faq-one {
-        padding: 338px 0 80px;
+        margin-top: 0;
+        padding: 80px 0 80px;
     }
 
     .download-app-one__title {
@@ -2912,7 +2921,7 @@
     }
 
     .main-menu__search-cart-box {
-        display: none;
+        display: flex;
     }
 
 
@@ -3033,7 +3042,17 @@
     }
 
     .main-menu__wrapper-inner {
-        padding: 0 15px;
+        padding: 4px 15px;
+    }
+
+    .main-menu__logo {
+        padding: 8px 0;
+        padding-right: 35px;
+    }
+
+    .main-menu__logo img {
+        max-height: 40px;
+        width: auto;
     }
 
     .main-menu__call {
@@ -3090,11 +3109,21 @@
     }
 
     .main-menu__wrapper-inner {
-        padding: 0 15px;
+        padding: 2px 15px;
     }
 
     .main-menu__right {
         display: none;
+    }
+
+    .main-menu__logo {
+        padding: 5px 0;
+        padding-right: 15px;
+    }
+
+    .main-menu__logo img {
+        max-height: 35px;
+        width: auto;
     }
 
 

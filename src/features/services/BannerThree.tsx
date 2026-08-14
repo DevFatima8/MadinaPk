@@ -24,7 +24,7 @@ const BannerThree: React.FC = () => {
                             <p className="banner-two__text">
                                 Madina International Traders Co., Ltd. provides comprehensive import and export services
                                 including sourcing, procurement, supplier communication, and commercial coordination for
-                                machinery, auto parts, textiles, electronics, and other products.
+                                machinery, auto parts, textiles, electronics, stones & gems, and other products.
                             </p>
                             <div className="banner-two__tab-box tabs-box">
                                 <ul className="tab-buttons clearfix list-unstyled">

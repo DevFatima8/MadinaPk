@@ -42,7 +42,7 @@ const HeaderOne: React.FC = () => {
                                 <i className="icon-location1"></i>
                             </div>
                             <div className="text">
-                                <p>Peshawar, Khyber Pakhtunkhwa, Pakistan</p>
+                                <p>Pakistan &amp; Thailand</p>
                             </div>
                         </li>
                     </ul>
@@ -72,7 +72,7 @@ const HeaderOne: React.FC = () => {
                         <div className="main-menu__left">
                             <div className="main-menu__logo">
                                 <Link to="/">
-                                    <img src="/logo.png" alt="Madina International" width="100" height="50" />
+                                    <img src="/logo.png" alt="Madina International" style={{ objectFit: 'contain', height: '65px', width: 'auto', display: 'block' }} />
                                 </Link>
                             </div>
                         </div>
@@ -102,35 +102,25 @@ const HeaderOne: React.FC = () => {
                             </ul>
                         </div>
 
-                        {/* Right Side - Call & Search */}
+                        {/* Right Side - Search */}
                         <div className="main-menu__right">
-                            <div className="main-menu__call">
-                                <div className="main-menu__call-icon">
-                                    <i className="icon-phone-call"></i>
-                                </div>
-                                <div className="main-menu__call-content">
-                                    <p className="main-menu__call-sub-title">Call Anytime</p>
-                                    <h5 className="main-menu__call-number">
-                                        <a href="tel:+92915260004">+92 91 5260004</a>
-                                    </h5>
-                                </div>
-                            </div>
-
                             {/* Search */}
                             <div className="main-menu__search-cart-box">
                                 <div
                                     className="main-menu__search-box"
                                     onClick={() => setIsSearch((pre: boolean) => !pre)}
+                                    style={{ cursor: 'pointer' }}
                                 >
                                     <a
                                         href="#"
-                                        className="main-menu__search searcher-toggler-box icon-search"
+                                        className="main-menu__search searcher-toggler-box"
                                         aria-label="Search"
                                         onClick={(e) => e.preventDefault()}
-                                    ></a>
+                                    >
+                                        <i className="fas fa-search" style={{ fontSize: '20px', color: 'var(--tanspot-black)' }}></i>
+                                    </a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

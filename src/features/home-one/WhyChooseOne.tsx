@@ -33,7 +33,7 @@ const WhyChooseOne: React.FC = () => {
                             <p className="why-choose-one__text" style={{ maxWidth: '800px', margin: '0 auto 40px' }}>
                                 Madina International Traders Co., Ltd. is an international import-export and trading company 
                                 serving business customers in Pakistan, Thailand and international markets. We source, supply 
-                                and trade used and new machinery, auto parts, textiles, electronics, food products, agricultural 
+                                and trade used and new machinery, auto parts, textiles, electronics, stones & gems, food products, agricultural 
                                 goods, agricultural machinery, used vehicles and other commercially demanded products.
                             </p>
                         </div>

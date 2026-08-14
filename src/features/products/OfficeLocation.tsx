@@ -23,7 +23,7 @@ const OfficeLocation: React.FC = () => {
                                 </div>
                                 <div className="text-box">
                                     <h4>Pakistan</h4>
-                                    <p>Office, 2nd Floor, Rasheed Building<br />1091 Saddar Road, Peshawar</p>
+                                    <p>Pakistan</p>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const OfficeLocation: React.FC = () => {
                                 </div>
                                 <div className="text-box">
                                     <h4>Thailand</h4>
-                                    <p>2 Bang Na--Bang Phli--Trat<br />Samut Prakan, Thailand</p>
+                                    <p>Thailand</p>
                                 </div>
                             </div>
                         </div>

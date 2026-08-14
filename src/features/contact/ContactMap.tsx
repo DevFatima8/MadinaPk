@@ -12,7 +12,7 @@ const ContactMap: React.FC = () => {
                                     Pakistan Office Location
                                 </h3>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.459329973584!2d71.5446213!3d33.7969204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b7f3f6b0c5e2d3%3A0x5f9f5f5f5f5f5f5f!2sSaddar%2C%20Peshawar!5e0!3m2!1sen!2s!4v1700000000000"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14479836.31427181!2d60.8734262!3d30.375321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sPakistan!5e0!3m2!1sen!2s!4v1700000000000"
                                     className="google-map__one"
                                     style={{ border: 'none', height: '523px', width: '100%', borderRadius: '20px' }}
                                     allowFullScreen

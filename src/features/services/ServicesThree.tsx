@@ -39,7 +39,7 @@ const ServicesThree: React.FC = () => {
                                     <h3><Link to="/services#import">Import Services</Link></h3>
                                     <p>
                                         We help businesses import products from international suppliers across various
-                                        categories including machinery, auto parts, textiles, electronics, and more.
+                                        categories including machinery, auto parts, textiles, electronics, stones & gems, and more.
                                     </p>
                                 </div>
                             </div>

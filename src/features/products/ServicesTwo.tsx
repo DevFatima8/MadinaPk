@@ -70,6 +70,14 @@ const productCategories: ProductCategoryItem[] = [
         path: "/products#vehicles",
         text: "Well-maintained used vehicles for commercial and personal use. Available for export with complete documentation."
     },
+    {
+        id: 7,
+        image: "/Stones-and-Gems.jpg",
+        iconClass: "icon-global-services",
+        title: "Stones & Gems",
+        path: "/products#gems",
+        text: "Precious & semi-precious natural gemstones, cut & polished gems, rough minerals, decorative stones, export & import sourcing."
+    },
 ];
 
 const ServicesTwo: React.FC = () => {

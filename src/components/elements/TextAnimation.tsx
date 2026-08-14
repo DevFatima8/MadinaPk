@@ -20,19 +20,31 @@ const TextAnimation: React.FC<TextAnimationProps> = ({
   // Function to recursively process children and split text
   const processChildren = (node: ReactNode): ReactNode => {
     if (typeof node === "string") {
-      // Split string into characters
-      return node.split("").map((char, index) => (
-        <motion.div
-          key={`char-${index}`}
-          variants={getCharVariants()}
-          style={{
-            display: "inline-block",
-            whiteSpace: char === " " ? "pre" : "normal",
-          }}
-        >
-          {char === " " ? "\u00A0" : char}
-        </motion.div>
-      ));
+      // Split string into words and preserve spaces, wrapping each word to prevent mid-word line breaks
+      const parts = node.split(/(\s+)/);
+      return parts.map((part, partIndex) => {
+        if (/^\s+$/.test(part)) {
+          return <span key={`space-${partIndex}`}>{part}</span>;
+        }
+        return (
+          <span
+            key={`word-${partIndex}`}
+            style={{ display: "inline-block", whiteSpace: "nowrap" }}
+          >
+            {part.split("").map((char, charIndex) => (
+              <motion.div
+                key={`char-${partIndex}-${charIndex}`}
+                variants={getCharVariants()}
+                style={{
+                  display: "inline-block",
+                }}
+              >
+                {char}
+              </motion.div>
+            ))}
+          </span>
+        );
+      });
     }
 
     if (React.isValidElement(node)) {

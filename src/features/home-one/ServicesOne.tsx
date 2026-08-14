@@ -73,6 +73,15 @@ const servicesData: ServiceItem[] = [
         iconClass: "icon-delivery-man",
         count: "06",
         text: "Well-maintained used vehicles for commercial and personal use. Available for export with complete documentation."
+    },
+    {
+        id: 7,
+        title: "Stones & Gems",
+        link: "/products",
+        image: "/Stones-and-Gems.jpg",
+        iconClass: "icon-global-services",
+        count: "07",
+        text: "Precious and semi-precious natural gemstones, cut & polished gems, rough mineral stones, quartz, decorative minerals, export and import sourcing."
     }
 ];
 

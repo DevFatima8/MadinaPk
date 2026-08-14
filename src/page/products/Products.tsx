@@ -167,11 +167,34 @@ const productsData: ProductItem[] = [
         condition: ["New"],
         features: ["Quality assured", "Commodities", "Bulk supply", "International standards"],
         link: "/quote"
+    },
+    // Stones & Gems
+    {
+        id: 13,
+        category: "Stones & Gems",
+        categoryIcon: "icon-global-services",
+        title: "Precious & Semi-Precious Gemstones",
+        description: "High-grade natural cut and polished gemstones including rubies, sapphires, emeralds, topazes, and aquamarines sourced internationally.",
+        image: "/Stones-and-Gems.jpg",
+        condition: ["Natural", "Certified"],
+        features: ["Certified authenticity", "Custom cut & polish", "Bulk & specimen orders", "Global export compliance"],
+        link: "/contact"
+    },
+    {
+        id: 14,
+        category: "Stones & Gems",
+        categoryIcon: "icon-global-services",
+        title: "Rough & Decorative Mineral Stones",
+        description: "Natural rough gemstone minerals, quartz crystals, lapidary rough, and decorative stones for jewelry artisans and commercial buyers.",
+        image: "/Stones-and-Gems.jpg",
+        condition: ["Natural", "Raw"],
+        features: ["Ethically sourced", "Assorted grades", "Worldwide shipping", "Custom procurement"],
+        link: "/contact"
     }
 ];
 
 // Category List for Filter
-const categories = ["All", "Machinery", "Auto Parts & Vehicles", "Textiles", "Electronics", "Food & Agriculture"];
+const categories = ["All", "Machinery", "Auto Parts & Vehicles", "Textiles", "Electronics", "Food & Agriculture", "Stones & Gems"];
 
 const Products: React.FC = () => {
     const [activeCategory, setActiveCategory] = useState<string>("All");

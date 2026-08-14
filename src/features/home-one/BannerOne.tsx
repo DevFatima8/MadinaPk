@@ -17,7 +17,7 @@ const BannerOne: React.FC = () => {
                         </h2>
                         <p className="banner-one__text">
                             Madina International Traders Co., Ltd. connects buyers and suppliers for machinery, auto parts,
-                            textiles, electronics, food products, agricultural goods, vehicles and other products.
+                            textiles, electronics, stones & gems, food products, agricultural goods, vehicles and other products.
                         </p>
                         <div className="banner-one__btn-and-review-box">
                             <div className="banner-one__review-box">

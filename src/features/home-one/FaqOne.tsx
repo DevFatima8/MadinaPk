@@ -12,7 +12,7 @@ export default function FaqOne() {
     return (
         <>
             {/*Faq One Start */}
-            <section className="faq-one" style={{ background: 'transparent', paddingTop: '500px' }}>
+            <section className="faq-one" style={{ background: 'transparent' }}>
                 <div className="faq-one__shape-1"></div>
                 <div className="faq-one__shape-2"></div>
                 <div className="container">

@@ -74,7 +74,7 @@ const AboutTwo: React.FC = () => {
                             </div>
                             <p className="about-two__text">
                                 Madina International Traders Co., Ltd. sources and supplies used and new machinery, auto parts,
-                                textiles, electronics, food products, agricultural goods, agricultural machinery, used vehicles
+                                textiles, electronics, stones & gems, food products, agricultural goods, agricultural machinery, used vehicles
                                 and other commercially demanded products.
                             </p>
                             <div className="about-two__progress-box-outer">

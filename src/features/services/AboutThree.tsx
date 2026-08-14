@@ -60,7 +60,7 @@ const AboutThree: React.FC = () => {
                                     Madina International Traders Co., Ltd. provides comprehensive import, export and trading
                                     services for businesses in Pakistan, Thailand and international markets. We facilitate
                                     communication between buyers and suppliers for machinery, auto parts, textiles, electronics,
-                                    and other commercial products.
+                                    stones & gems, and other commercial products.
                                 </p>
                                 <div className="about-three__points-box">
                                     <ul className="about-three__points list-unstyled">

@@ -21,10 +21,8 @@ const ContactInfo: React.FC = () => {
                                     <span className="icon-location1"></span>
                                 </div>
                                 <p>Pakistan Office</p>
-                                <h5 style={{ fontSize: '14px', lineHeight: '1.6' }}>
-                                    Office, 2nd Floor, Rasheed Building<br />
-                                    1091 Saddar Road, Opposite Cantt G.P.O.<br />
-                                    Peshawar, Khyber Pakhtunkhwa, Pakistan
+                                <h5 style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                                    Pakistan
                                 </h5>
                             </div>
                         </FadeInAdvanced>
@@ -38,9 +36,8 @@ const ContactInfo: React.FC = () => {
                                     <span className="icon-location1"></span>
                                 </div>
                                 <p>Thailand Office</p>
-                                <h5 style={{ fontSize: '14px', lineHeight: '1.6' }}>
-                                    2 Bang Na--Bang Phli--Trat<br />
-                                    Samut Prakan, Thailand
+                                <h5 style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                                    Thailand
                                 </h5>
                             </div>
                         </FadeInAdvanced>

@@ -92,9 +92,7 @@ const FooterOne: React.FC = () => {
                                                 <span className="icon-location1"></span>
                                             </div>
                                             <div className="content">
-                                                <p>Office, 2nd Floor, Rasheed Building<br />
-                                                    1091 Saddar Road, Opposite Cantt G.P.O.<br />
-                                                    Peshawar, Khyber Pakhtunkhwa, Pakistan</p>
+                                                <p>Pakistan &amp; Thailand</p>
                                             </div>
                                         </li>
                                         <li>
