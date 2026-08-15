@@ -9,9 +9,9 @@
 }
 
 .products-page .category-filter button:hover {
-    background-color: #fdc603;
+    background-color: #ecac02;
     color: #fff;
-    border-color: #fdc603;
+    border-color: #ecac02;
 }
 
 .products-page .product-card:hover {
@@ -60,7 +60,7 @@
 }
 
 .product-badge-used {
-    background: #fdc603;
+    background: #ecac02;
     color: #fff;
     padding: 4px 12px;
     border-radius: 20px;

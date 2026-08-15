@@ -72,7 +72,7 @@ const HeaderOne: React.FC = () => {
                         <div className="main-menu__left">
                             <div className="main-menu__logo">
                                 <Link to="/">
-                                    <img src="/logo-footer.png" alt="Madina International" style={{ objectFit: 'contain', height: '85px', width: 'auto', display: 'block' }} />
+                                    <img src="/logo-footer.png" alt="Madina International" style={{ objectFit: 'contain', height: '75px', width: 'auto', display: 'block' }} />
                                 </Link>
                             </div>
                         </div>

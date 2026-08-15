@@ -37,7 +37,7 @@ const TeamDetaislProgress: React.FC<ProgressBarsProps> = ({ title, value }) => {
                 <ProgressBar
                     completed={progress}
                     maxCompleted={100}
-                    bgColor="#fdc603"
+                    bgColor="#ecac02"
                     baseBgColor="#e6e6e6"
                     height={"10px"}
                     isLabelVisible={false}

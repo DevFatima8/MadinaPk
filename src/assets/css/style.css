@@ -22,8 +22,8 @@
   --tanspot-font-two: "Rubik", sans-serif;
   --tanspot-gray: #585b6b;
   --tanspot-gray-rgb: 88, 91, 107;
-  --tanspot-base: #fdc603;
-  --tanspot-base-rgb: 253, 198, 3;
+  --tanspot-base: #ecac02;
+  --tanspot-base-rgb: 236, 172, 2;
   --tanspot-primary: #F4F5F9;
   --tanspot-primary-rgb: 244, 245, 249;
   --tanspot-black: #062f3a;
@@ -8473,7 +8473,7 @@ Error Page
   width: 730px;
   height: 765px;
   border-radius: 50%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(253, 198, 3, 0.62) 0%, rgba(6, 47, 58, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(236, 172, 2, 0.62) 0%, rgba(6, 47, 58, 0) 100%);
   opacity: 0.4;
   filter: blur(120px);
   z-index: -1;
@@ -8486,7 +8486,7 @@ Error Page
   width: 730px;
   height: 765px;
   border-radius: 50%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(253, 198, 3, 0.62) 0%, rgba(6, 47, 58, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(236, 172, 2, 0.62) 0%, rgba(6, 47, 58, 0) 100%);
   opacity: 0.4;
   filter: blur(120px);
   z-index: -1;
@@ -8519,7 +8519,7 @@ Error Page
   position: absolute;
   bottom: 30px;
   right: -70px;
-  background: linear-gradient(270deg, #fdc603 45%, #ffffff 100%);
+  background: linear-gradient(270deg, #ecac02 45%, #ffffff 100%);
   max-width: 180px;
   width: 100%;
   text-align: center;
@@ -13543,7 +13543,7 @@ Product
   appearance: none;
   width: 18px;
   height: 18px;
-  background: #fdc603;
+  background: #ecac02;
   /* Matching your theme color */
   cursor: pointer;
   border-radius: 50%;
@@ -13555,7 +13555,7 @@ Product
 .custom-range-slider::-moz-range-thumb {
   width: 18px;
   height: 18px;
-  background: #fdc603;
+  background: #ecac02;
   cursor: pointer;
   border-radius: 50%;
   border: 2px solid #fff;
@@ -16939,7 +16939,7 @@ Product Description
   top: 10px;
   right: 0;
   font-size: 15px;
-  color: #fdc603;
+  color: #ecac02;
   font-weight: bold;
 }
 
@@ -18292,7 +18292,7 @@ Sliding Text One
   top: 10px;
   right: 0;
   font-size: 15px;
-  color: #fdc603;
+  color: #ecac02;
   font-weight: bold;
 }
 
@@ -20552,11 +20552,11 @@ Why Choose Two
 
 
 .mobileManulist li ul li.current a {
-  color: #fdc603 !important;
+  color: #ecac02 !important;
 }
 
 .mobileManulist li.current a {
-  color: #fdc603 !important;
+  color: #ecac02 !important;
 }
 
 

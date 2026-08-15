@@ -60,10 +60,10 @@ const TestimonialOne: React.FC = () => {
                         <span style={{
                             width: '40px',
                             height: '2px',
-                            background: 'linear-gradient(90deg, transparent, #ffd700)'
+                            background: 'linear-gradient(90deg, transparent, #ecac02)'
                         }}></span>
                         <span style={{
-                            color: '#ffd700',
+                            color: '#ecac02',
                             fontSize: '14px',
                             fontWeight: '600',
                             letterSpacing: '3px',
@@ -72,7 +72,7 @@ const TestimonialOne: React.FC = () => {
                         <span style={{
                             width: '40px',
                             height: '2px',
-                            background: 'linear-gradient(270deg, transparent, #ffd700)'
+                            background: 'linear-gradient(270deg, transparent, #ecac02)'
                         }}></span>
                     </div>
                     <h2 style={{
@@ -83,7 +83,7 @@ const TestimonialOne: React.FC = () => {
                         lineHeight: 1.2
                     }}>
                         <TextAnimation animationStyle="style1">
-                            What Our <span style={{ color: '#ffd700' }}>Clients Say</span>
+                            What Our <span style={{ color: '#ecac02' }}>Clients Say</span>
                         </TextAnimation>
                     </h2>
                 </div>
@@ -104,7 +104,7 @@ const TestimonialOne: React.FC = () => {
                         top: '30px',
                         right: '40px',
                         fontSize: '60px',
-                        color: 'rgba(255,215,0,0.08)',
+                        color: 'rgba(236,172,2,0.08)',
                         fontFamily: 'Georgia, serif',
                         lineHeight: 1
                     }}>
@@ -145,7 +145,7 @@ const TestimonialOne: React.FC = () => {
                                     textDecoration: 'none',
                                     transition: 'color 0.3s ease'
                                 }}
-                                    onMouseEnter={(e) => e.currentTarget.style.color = '#ffd700'}
+                                    onMouseEnter={(e) => e.currentTarget.style.color = '#ecac02'}
                                     onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
                                 >
                                     {testimonialsData[activeIndex].name}
@@ -155,7 +155,7 @@ const TestimonialOne: React.FC = () => {
                         <div style={{
                             display: 'flex',
                             gap: '5px',
-                            color: '#ffd700',
+                            color: '#ecac02',
                             fontSize: 'clamp(16px, 1vw, 20px)'
                         }}>
                             {[...Array(testimonialsData[activeIndex].rating)].map((_, i) => (
@@ -189,8 +189,8 @@ const TestimonialOne: React.FC = () => {
                                 fontSize: '16px'
                             }}
                             onMouseEnter={(e) => {
-                                e.currentTarget.style.background = 'rgba(255,215,0,0.15)';
-                                e.currentTarget.style.borderColor = '#ffd700';
+                                e.currentTarget.style.background = 'rgba(236,172,2,0.15)';
+                                e.currentTarget.style.borderColor = '#ecac02';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.background = 'rgba(255,255,255,0.06)';
@@ -227,8 +227,8 @@ const TestimonialOne: React.FC = () => {
                                 fontSize: '16px'
                             }}
                             onMouseEnter={(e) => {
-                                e.currentTarget.style.background = 'rgba(255,215,0,0.15)';
-                                e.currentTarget.style.borderColor = '#ffd700';
+                                e.currentTarget.style.background = 'rgba(236,172,2,0.15)';
+                                e.currentTarget.style.borderColor = '#ecac02';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.background = 'rgba(255,255,255,0.06)';

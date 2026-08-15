@@ -17,7 +17,7 @@ const DefaultBanner: React.FC<ThisBanner> = ({
     subTitle = "",
     typingSpeed = 80,
     showCursor = true,
-    cursorColor = '#fdc603',
+    cursorColor = '#ecac02',
     onComplete
 }) => {
     const [displayText, setDisplayText] = useState('');
@@ -86,7 +86,7 @@ const DefaultBanner: React.FC<ThisBanner> = ({
                             <li><Link to="/" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Home</Link></li>
                             <li><span className="fas fa-angle-right" style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px' }}></span></li>
                             {titleLink ? (
-                                <li><Link to={titleLink} style={{ color: '#fdc603', textDecoration: 'none' }}>{displayText}</Link></li>
+                                <li><Link to={titleLink} style={{ color: '#ecac02', textDecoration: 'none' }}>{displayText}</Link></li>
                             ) : (
                                 <li style={{ color: '#ffffff' }}>{displayText}</li>
                             )}
