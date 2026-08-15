@@ -124,7 +124,7 @@ const ContactForm: React.FC = () => {
                                                         color: '#062f3a'
                                                     }}
                                                     onFocus={(e) => {
-                                                        e.currentTarget.style.borderColor = '#FD5523';
+                                                        e.currentTarget.style.borderColor = '#fdc603';
                                                         e.currentTarget.style.background = '#ffffff';
                                                     }}
                                                     onBlur={(e) => {
@@ -154,7 +154,7 @@ const ContactForm: React.FC = () => {
                                                         color: '#062f3a'
                                                     }}
                                                     onFocus={(e) => {
-                                                        e.currentTarget.style.borderColor = '#FD5523';
+                                                        e.currentTarget.style.borderColor = '#fdc603';
                                                         e.currentTarget.style.background = '#ffffff';
                                                     }}
                                                     onBlur={(e) => {
@@ -183,7 +183,7 @@ const ContactForm: React.FC = () => {
                                                         color: '#062f3a'
                                                     }}
                                                     onFocus={(e) => {
-                                                        e.currentTarget.style.borderColor = '#FD5523';
+                                                        e.currentTarget.style.borderColor = '#fdc603';
                                                         e.currentTarget.style.background = '#ffffff';
                                                     }}
                                                     onBlur={(e) => {
@@ -212,7 +212,7 @@ const ContactForm: React.FC = () => {
                                                         color: '#062f3a'
                                                     }}
                                                     onFocus={(e) => {
-                                                        e.currentTarget.style.borderColor = '#FD5523';
+                                                        e.currentTarget.style.borderColor = '#fdc603';
                                                         e.currentTarget.style.background = '#ffffff';
                                                     }}
                                                     onBlur={(e) => {
@@ -244,7 +244,7 @@ const ContactForm: React.FC = () => {
                                                         minHeight: '120px'
                                                     }}
                                                     onFocus={(e) => {
-                                                        e.currentTarget.style.borderColor = '#FD5523';
+                                                        e.currentTarget.style.borderColor = '#fdc603';
                                                         e.currentTarget.style.background = '#ffffff';
                                                     }}
                                                     onBlur={(e) => {
@@ -262,7 +262,7 @@ const ContactForm: React.FC = () => {
                                                     disabled={isSubmitting}
                                                     style={{
                                                         padding: '15px 35px',
-                                                        background: '#FD5523',
+                                                        background: '#fdc603',
                                                         color: '#fff',
                                                         border: 'none',
                                                         borderRadius: '10px',
@@ -275,12 +275,12 @@ const ContactForm: React.FC = () => {
                                                         gap: '10px'
                                                     }}
                                                     onMouseEnter={(e) => {
-                                                        e.currentTarget.style.background = '#e64a1e';
+                                                        e.currentTarget.style.background = '#e6b202';
                                                         e.currentTarget.style.transform = 'translateY(-2px)';
-                                                        e.currentTarget.style.boxShadow = '0 8px 25px rgba(253, 85, 35, 0.3)';
+                                                        e.currentTarget.style.boxShadow = '0 8px 25px rgba(253, 198, 3, 0.3)';
                                                     }}
                                                     onMouseLeave={(e) => {
-                                                        e.currentTarget.style.background = '#FD5523';
+                                                        e.currentTarget.style.background = '#fdc603';
                                                         e.currentTarget.style.transform = 'translateY(0)';
                                                         e.currentTarget.style.boxShadow = 'none';
                                                     }}
@@ -406,7 +406,7 @@ const ContactForm: React.FC = () => {
                                         color: '#062f3a',
                                         marginBottom: '8px'
                                     }}>
-                                        <i className="fas fa-phone" style={{ color: '#FD5523', marginRight: '10px', width: '18px' }}></i>
+                                        <i className="fas fa-phone" style={{ color: '#fdc603', marginRight: '10px', width: '18px' }}></i>
                                         Pakistan Office
                                     </h4>
                                     <p style={{ color: '#585b6b', marginLeft: '28px', marginBottom: '4px' }}>
@@ -436,7 +436,7 @@ const ContactForm: React.FC = () => {
                                         color: '#062f3a',
                                         marginBottom: '8px'
                                     }}>
-                                        <i className="fas fa-phone" style={{ color: '#FD5523', marginRight: '10px', width: '18px' }}></i>
+                                        <i className="fas fa-phone" style={{ color: '#fdc603', marginRight: '10px', width: '18px' }}></i>
                                         Thailand Office
                                     </h4>
                                     <p style={{ color: '#585b6b', marginLeft: '28px' }}>
@@ -461,7 +461,7 @@ const ContactForm: React.FC = () => {
                                         color: '#062f3a',
                                         marginBottom: '8px'
                                     }}>
-                                        <i className="fas fa-envelope" style={{ color: '#FD5523', marginRight: '10px', width: '18px' }}></i>
+                                        <i className="fas fa-envelope" style={{ color: '#fdc603', marginRight: '10px', width: '18px' }}></i>
                                         Email Addresses
                                     </h4>
                                     <p style={{ color: '#585b6b', marginLeft: '28px', marginBottom: '4px' }}>
@@ -483,7 +483,7 @@ const ContactForm: React.FC = () => {
                                         color: '#062f3a',
                                         marginBottom: '8px'
                                     }}>
-                                        <i className="fas fa-clock" style={{ color: '#FD5523', marginRight: '10px', width: '18px' }}></i>
+                                        <i className="fas fa-clock" style={{ color: '#fdc603', marginRight: '10px', width: '18px' }}></i>
                                         Working Hours
                                     </h4>
                                     <p style={{ color: '#585b6b', marginLeft: '28px', marginBottom: '2px' }}>

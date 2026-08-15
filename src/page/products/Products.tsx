@@ -234,9 +234,9 @@ const Products: React.FC = () => {
                                                 onClick={() => setActiveCategory(cat)}
                                                 style={{
                                                     padding: '10px 25px',
-                                                    background: activeCategory === cat ? '#FD5523' : 'transparent',
+                                                    background: activeCategory === cat ? '#fdc603' : 'transparent',
                                                     color: activeCategory === cat ? '#fff' : '#062f3a',
-                                                    border: activeCategory === cat ? '1px solid #FD5523' : '1px solid #e6e6e6',
+                                                    border: activeCategory === cat ? '1px solid #fdc603' : '1px solid #e6e6e6',
                                                     borderRadius: '30px',
                                                     cursor: 'pointer',
                                                     fontSize: '15px',
@@ -310,7 +310,7 @@ const Products: React.FC = () => {
                                             }}>
                                                 {product.condition.map((cond, i) => (
                                                     <span key={i} style={{
-                                                        background: cond === 'New' ? '#198754' : '#FD5523',
+                                                        background: cond === 'New' ? '#198754' : '#fdc603',
                                                         color: '#fff',
                                                         padding: '4px 12px',
                                                         borderRadius: '20px',
@@ -325,7 +325,7 @@ const Products: React.FC = () => {
                                                 position: 'absolute',
                                                 bottom: '15px',
                                                 right: '15px',
-                                                background: 'rgba(253, 85, 35, 0.9)',
+                                                background: 'rgba(253, 198, 3, 0.9)',
                                                 padding: '6px 14px',
                                                 borderRadius: '20px',
                                                 fontSize: '13px',
@@ -339,7 +339,7 @@ const Products: React.FC = () => {
                                         {/* Content */}
                                         <div style={{ padding: '25px 25px 30px' }}>
                                             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
-                                                <span className={product.categoryIcon} style={{ color: '#FD5523', fontSize: '24px' }}></span>
+                                                <span className={product.categoryIcon} style={{ color: '#fdc603', fontSize: '24px' }}></span>
                                                 <span style={{ fontSize: '14px', color: '#585b6b' }}>{product.category}</span>
                                             </div>
                                             <h4 style={{
@@ -375,7 +375,7 @@ const Products: React.FC = () => {
                                                         fontSize: '14px',
                                                         color: '#062f3a'
                                                     }}>
-                                                        <span style={{ color: '#FD5523' }}>✓</span>
+                                                        <span style={{ color: '#fdc603' }}>✓</span>
                                                         {feature}
                                                     </li>
                                                 ))}

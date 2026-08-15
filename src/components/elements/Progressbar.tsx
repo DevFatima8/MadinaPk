@@ -42,7 +42,7 @@ const Progresbar: React.FC<ProgressBarsProps> = ({ title = "", value = 80, showT
                 <ProgressBar
                     completed={progress}
                     maxCompleted={100}
-                    bgColor="#FD5523"
+                    bgColor="#fdc603"
                     baseBgColor="#e6e6e6"
                     height={height}
                     isLabelVisible={false}

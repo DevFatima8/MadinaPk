@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../../assets/images/resources/logo-2.png"
 import useTransportContext from '../context/useTransportContext';
 import { Link } from 'react-router';
 const SideBar: React.FC = () => {
@@ -21,7 +20,7 @@ const SideBar: React.FC = () => {
                         <div className="sidebar-info-contents">
                             <div className="content-inner">
                                 <div className="logo" onClick={() => setIsSidebar(false)}>
-                                    <Link to="/"><img src="/logo.png" alt="Madina International" width="130" style={{ maxHeight: '60px', objectFit: 'contain' }} /></Link>
+                                    <Link to="/"><img src="/logo-footer.png" alt="Madina International" width="130" style={{ maxHeight: '60px', objectFit: 'contain' }} /></Link>
                                 </div>
                                 <div className="content-box">
                                     <h4>About Us</h4>

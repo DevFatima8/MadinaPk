@@ -41,7 +41,7 @@ const CEOSection: React.FC = () => {
                             <div className="ceo-message-wrapper" style={{ padding: '20px 0 20px 40px' }}>
                                 <div style={{
                                     display: 'inline-block',
-                                    background: '#FD5523',
+                                    background: '#fdc603',
                                     color: '#fff',
                                     padding: '6px 20px',
                                     borderRadius: '30px',
@@ -62,13 +62,13 @@ const CEOSection: React.FC = () => {
                                     lineHeight: '1.2'
                                 }}>
                                     Leading with Vision & <br />
-                                    <span style={{ color: '#FD5523' }}>Commitment to Excellence</span>
+                                    <span style={{ color: '#fdc603' }}>Commitment to Excellence</span>
                                 </h2>
 
                                 <div style={{
                                     width: '60px',
                                     height: '4px',
-                                    background: '#FD5523',
+                                    background: '#fdc603',
                                     marginBottom: '25px',
                                     borderRadius: '2px'
                                 }}></div>
@@ -117,7 +117,7 @@ const CEOSection: React.FC = () => {
                                     </h4>
                                     <p style={{
                                         fontSize: '16px',
-                                        color: '#FD5523',
+                                        color: '#fdc603',
                                         fontWeight: '500'
                                     }}>
                                         Founder & CEO

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router';
 import useTransportContext from '../context/useTransportContext';
-import Logo from "../../assets/images/resources/logo-3.png";
 import MobileManuList from './MobileManuList';
 
 const MobileNav: React.FC = () => {
@@ -26,7 +25,7 @@ const MobileNav: React.FC = () => {
 
                 <div className="logo-box">
                     <Link to="/" aria-label="logo image" onClick={() => setIsMobileManu(false)}>
-                        <img src="/logo.png" alt="Madina International" width="130" style={{ maxHeight: '80px', objectFit: 'contain' }} />
+                        <img src="/logo-footer.png" alt="Madina International" width="130" style={{ maxHeight: '80px', objectFit: 'contain' }} />
                     </Link>
                 </div>
 

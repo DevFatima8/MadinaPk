@@ -185,7 +185,7 @@ const AboutOne: React.FC = () => {
                                     <div className="about-one__author-details">
                                         <div className="about-one__author-img-box">
                                             <div className="about-one__author-img">
-                                                <img src="/madinapk.jpeg" alt="Team" />
+                                                <img src="/logo-footer.png" alt="Madina International" style={{ objectFit: 'contain' }} />
                                             </div>
                                         </div>
                                         <div className="about-one__author-content">
