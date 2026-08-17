@@ -20666,3 +20666,96 @@ Why Choose Two
     1px -1px 0 #ffffff,
     -1px 1px 0 #ffffff;
 }
+
+@media (max-width: 991px) {
+  .mobile-nav__content {
+    padding-top: 25px;
+  }
+
+  .mobile-nav__content .logo-box {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+  }
+
+  .mobile-nav__content .logo-box img {
+    width: 150px;
+    max-height: 130px !important;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .main-header .main-menu,
+  .main-header .main-menu__wrapper,
+  .main-header .main-menu__wrapper-inner {
+    min-height: 120px;
+  }
+
+  .main-header .main-menu__wrapper-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .main-header .main-menu__logo img {
+    height: 95px !important;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /* Mobile header height */
+  .main-header .main-menu,
+  .main-header .main-menu__wrapper,
+  .main-header .main-menu__wrapper-inner {
+    min-height: 120px;
+  }
+
+  .main-header .main-menu__wrapper-inner {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  /* Mobile Logo */
+  .main-header .main-menu__logo img {
+    height: 95px !important;
+    width: auto !important;
+    max-width: 180px;
+    object-fit: contain;
+  }
+
+  /* Hamburger / Toggle */
+  .main-header .main-menu__main-menu-box .mobile-nav__toggler {
+    font-size: 34px !important;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-header .main-menu__main-menu-box .mobile-nav__toggler i {
+    font-size: 34px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-nav__content .logo-box {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+  }
+
+  .mobile-nav__content .logo-box img {
+    width: 190px !important;
+    height: auto !important;
+    max-height: 120px !important;
+    object-fit: contain !important;
+  }
+}

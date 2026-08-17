@@ -20,7 +20,7 @@ const SideBar: React.FC = () => {
                         <div className="sidebar-info-contents">
                             <div className="content-inner">
                                 <div className="logo" onClick={() => setIsSidebar(false)}>
-                                    <Link to="/"><img src="/logo-footer.png" alt="Madina International" width="130" style={{ maxHeight: '60px', objectFit: 'contain' }} /></Link>
+                                    <Link to="/"><img src="/logo.png" alt="Madina International" width="160" style={{ maxHeight: '160px', objectFit: 'contain' }} /></Link>
                                 </div>
                                 <div className="content-box">
                                     <h4>About Us</h4>
